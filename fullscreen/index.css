@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    scroll-snap-type: y mandatory;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 14px 22px;
+    color: white;
+    display: inline-block;
+}
+
+main {
+    
+}
+
+main section {
+    min-height: 100vh;
+    padding-top: 80px;
+    padding-left: 30px;
+    scroll-snap-align: start;
+}
+
+#bio { background-color: orange; }
+#bib { background-color: indigo; }
+#historie { background-color: peachpuff; }

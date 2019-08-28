@@ -1,0 +1,40 @@
+* { 
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.fullscreen {    
+    padding: 84px 16px;
+    min-height: 100vh;
+}
+
+.highlights {
+    background-color: white;
+    max-width: 536px;
+    margin: 0 auto; /* 0 opp og ned, auto på sidene */
+    padding: 20px 32px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.highlights ul {
+    padding-top: 34px;
+    padding-bottom: 26px;
+    padding-left: 0;
+    border-top-color: rgb(217, 218, 220);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom: 1px solid rgb(217, 218, 220);
+}
+
+.highlights li {
+    list-style-image: url(./images/check.svg);
+    line-height: 22px;
+    padding-bottom: 7px;
+    margin-left: 25px;
+}
